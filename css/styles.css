@@ -1,6 +1,61 @@
 *{
   margin: 0;
   padding: 0;
-  font-family: "Oswald", sans-serif;
+  font-family: 'Oswald', sans-serif;
   color: #990000;
+}
+
+body{
+  background-image: url("../img/background.jpg");
+  background-repeat: none;
+  background-size: cover;
+  background-position: fixed;
+}
+
+/*navigation bar*/
+
+.navbar{
+  margin-top: 5px;
+}
+div nav .navigation{
+  float: right;
+  display: inline-block;
+}
+div nav .navigation li{
+  display: inline-block;
+  list-style: none;
+  font-size: 25px;
+  margin-top: 18px;
+}
+.name{
+  list-style: none;
+  margin-left: 20px;
+  font-size: 35px;
+  margin-top: 10px;
+}
+div nav ul li a{
+  color: #990000;
+}
+/*footer*/
+
+.email, .phone, .linkedin{
+  text-align: center;
+  background-color: #222;
+}
+
+/*Home pafe*/
+.glance{
+  background-color: #ccc;
+  border: 1px soild #ccc;
+  border-radius: 5px;
+  margin-top: 15%;
+}
+
+
+
+
+/*portolio page*/
+.portfolioimg{
+  width: 50%;
+  height: 50%;
 }
