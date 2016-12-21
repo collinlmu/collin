@@ -97,11 +97,12 @@ footer div div p a{
   border-radius: 5px;
   margin-bottom: 40px;
 }
-.contactname, .contactemail{
+.contactname, .contactemail, .contactmessage{
   margin-bottom: 20px;
 }
-.contactmessage{
-  margin-bottom: 18.5%;
+
+.submitmessage{
+  margin-bottom: 38.5%;
 }
 
 /*portolio page*/

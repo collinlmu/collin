@@ -1,8 +1,8 @@
 $(document).ready(function() {
-  $(".one").fadeIn(2000).removeClass("hidden")
-  $(".two").fadeIn(3000).removeClass("hidden")
-  $(".three").fadeIn(4000).removeClass("hidden")
-  $(".four").fadeIn(5000).removeClass("hidden")
+  $(".one").fadeIn(6000).removeClass("hidden")
+  $(".two").fadeIn(7000).removeClass("hidden")
+  $(".three").fadeIn(8000).removeClass("hidden")
+  $(".four").fadeIn(9000).removeClass("hidden")
 
   $(".beartrouble").mouseenter(function(){
     $(".beartrouble").animate({
@@ -182,6 +182,24 @@ $(document).ready(function() {
       width:"50%",
       height:"50%"
     }, "slow");
+  });
+
+
+
+
+
+
+
+
+
+  $('body').RainSnow({
+  	effect_name: 'rain',
+  	drop_appear_speed: 100,
+  	drop_falling_speed: 7000,
+  	wind_direction: 3,
+  	drop_rotate_angle : '-10deg',
+  	drop_count_width_height:[[2,10], [2,15], [2,20]],
+  	lighting_effect : [true, 50]
   });
 
 
