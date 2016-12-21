@@ -108,4 +108,14 @@ footer div div p a{
 .portfolioimg{
   width: 50%;
   height: 50%;
+  padding-top: 20px;
+}
+.turtle{
+  margin-bottom: 10px;
+}
+.photos{
+  background-color: #ccc;
+  border: 1px soild #ccc;
+  border-radius: 5px;
+  margin-bottom: 40px;
 }
