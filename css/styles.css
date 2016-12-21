@@ -40,6 +40,7 @@ div nav ul li a:hover{
   text-decoration: none;
   color: #ccc;
 }
+
 /*footer*/
 
 .email, .phone, .linkedin{
@@ -87,6 +88,20 @@ footer div div p a{
 .expierencelist > .subtext{
   font-size: 20px;
   margin-bottom: 30px;
+}
+
+/*Contact page*/
+.contactme{
+  background-color: #ccc;
+  border: 1px soild #ccc;
+  border-radius: 5px;
+  margin-bottom: 40px;
+}
+.contactname, .contactemail{
+  margin-bottom: 20px;
+}
+.contactmessage{
+  margin-bottom: 18.5%;
 }
 
 /*portolio page*/
